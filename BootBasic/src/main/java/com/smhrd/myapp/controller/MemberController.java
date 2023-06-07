@@ -29,5 +29,6 @@ public class MemberController {
 		// java object ->json 형식으로 만들어줌 (잭슨라이브러리)
 		// json-> java object
 		return service.memberList();
+		
 	}
 }

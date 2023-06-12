@@ -24,6 +24,7 @@ public class ProductController {
 	// 상품을 전체 리스트로 가져올때 
 	@GetMapping("/")
 	public JSONArray productList() {
+		System.out.println("이곳은 8090");
 		JSONArray array = service.productList();
 		return array;
 		
